@@ -6,7 +6,7 @@ public class Calculator {
         System.out.println(a+b);
         return a+b;
     }
-    public int substractBfromA(int a, int b){
+    public int AminusB(int a, int b){
         System.out.println(a-b);
         return a-b;
     }
@@ -14,6 +14,6 @@ public class Calculator {
     public static void main(String args[]){
         Calculator calculator = new Calculator();
         calculator.addAtoB(2,3);
-        calculator.substractBfromA(6,4);
+        calculator.AminusB(6,4);
     }
 }
